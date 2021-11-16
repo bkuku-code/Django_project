@@ -67,6 +67,7 @@ urlpatterns = [
     path('cohort', list_cohort),
     path('cohort/ create', create_cohort),
     path('playground/ ', include('playground.urls')),
+
 ]
 
 
